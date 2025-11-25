@@ -26,8 +26,15 @@
 <link href="spacemath.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>FrankenMarkup</h1>
+<h1>PreTeXt Markdown</h1>
 
+<div>
+    <label for="converterSelect">Converter:</label>
+    <select id="converterSelect" name="converterSelect">
+        <option value="original" selected>Original converter</option>
+        <option value="xast">XAST-based converter</option>
+    </select>
+</div>
 
     <textarea rows="20" cols="60" id=sourceTextArea placeholder="Paste into this box."></textarea>
 
@@ -45,7 +52,10 @@
     <textarea rows="8" cols="60" id=XXmathmlTextArea disabled=true placeholder="MathML version"></textarea>
 -->
 
-    <div id=echosourceTextArea></textarea>
+    <div id=echosourceTextArea><h2>Echo Source</h2><textarea></textarea></div>
+
+
+    <div id="xastDisplayArea"><h2>XAST Output</h2><textarea></textarea></div>
 <!--
     <textarea rows="8" cols="60" id=echosourceTextArea disabled=true placeholder="What you typed, in LaTeX"></textarea>
     <textarea rows="8" cols="60" id=PreTeXtTextArea disabled=true placeholder="PreTeXt version"></textarea>

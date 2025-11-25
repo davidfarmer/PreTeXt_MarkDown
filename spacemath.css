@@ -22,7 +22,7 @@ h1 {
     background: #eef;
     color: black;
 }
-#echosourceTextArea {
+#echosourceTextArea, #xastDisplayArea {
     font-size: 90%;
     font-family: monospace;
     white-space: pre;

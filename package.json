@@ -18,6 +18,9 @@
     "vitest": "^3.1.4"
   },
   "dependencies": {
-    "space_math": "github:davidfarmer/Space_Math"
+    "space_math": "github:davidfarmer/Space_Math",
+    "unist-util-visit": "^5.0.0",
+    "xast-util-from-xml": "^4.0.0",
+    "xast-util-to-xml": "^4.0.0"
   }
 }

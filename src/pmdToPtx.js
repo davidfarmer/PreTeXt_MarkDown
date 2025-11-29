@@ -5,7 +5,7 @@ import { toXml } from "xast-util-to-xml";
 import { CONTINUE, SKIP, visit } from "unist-util-visit";
 
 
-const inlineTags = ['em', 'alert', 'term', 'c', 'm', 'pretext', 'latex', 'tex', 'me', 'md', 'men', 'mdn', 'xref', 'fn',];
+const inlineTags = ['em', 'alert', 'term', 'c', 'm', 'pretext', 'latex', 'tex', 'me', 'md', 'men', 'mdn', 'xref', 'fn', 'tag', 'attr'];
 const avoidPTags = ['p', 'caption', 'title', 'subtitle', 'idx', 'h'];
 
 export function pmdToPtx(pmdText) {
